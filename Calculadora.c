@@ -6,64 +6,64 @@
 #include <windows.h>
 
 void Sumar(){
-    int numero1 = 0;
-    int numero2 = 0;
+    float numero1 = 0;
+    float numero2 = 0;
     printf ("Indique los numero a Sumar: \n");
     printf ("Primer Numero: ");
-    scanf ("%d",&numero1);
+    scanf ("%f",&numero1);
     printf ("Segundo Numero: ");
-    scanf ("%d",&numero2);
+    scanf ("%f",&numero2);
 
-    int suma = (numero1 + numero2);
-    printf ("La suma es %d\n",suma);
+    float suma = (numero1 + numero2);
+    printf ("La suma es %.2f\n",suma);
     Sleep(3000);
     system ("cls");
 }
 
 void Restar(){
-    int numero1 = 0;
-    int numero2 = 0;
+    float numero1 = 0;
+    float numero2 = 0;
     printf ("Indique los numero a Restar: \n");
     printf ("Primer Numero: ");
-    scanf ("%d",&numero1);
+    scanf ("%f",&numero1);
     printf ("Segundo Numero: ");
-    scanf ("%d",&numero2);
+    scanf ("%f",&numero2);
 
-    int resta = (numero1 - numero2);
-    printf ("La resta es %d\n",resta);
+    float resta = (numero1 - numero2);
+    printf ("La resta es %.2f\n",resta);
     Sleep (3000);
     system ("cls");
 }
 
 void Multiplicar(){
-    int numero1 = 0;
-    int numero2 = 0;
+    float numero1 = 0;
+    float numero2 = 0;
     printf ("Indique los numero a Multiplicar: \n");
     printf ("Primer Numero: ");
-    scanf ("%d",&numero1);
+    scanf ("%f",&numero1);
     printf ("Segundo Numero: ");
-    scanf ("%d",&numero2);
+    scanf ("%f",&numero2);
 
-    int multiplicacion = (numero1 * numero2);
-    printf ("La multiplicacion es %d\n",multiplicacion);
+    float multiplicacion = (numero1 * numero2);
+    printf ("La multiplicacion es %.2f\n",multiplicacion);
     Sleep(3000);
     system ("cls");
 
 }
 
 void Dividir(){
-    int numero1 = 0;
-    int numero2 = 0;
-    int division = 0;
+    float numero1 = 0;
+    float numero2 = 0;
+    float division = 0;
     printf ("Indique los numero a Dividir: \n");
     printf ("Primer Numero: ");
-    scanf ("%d",&numero1);
+    scanf ("%f",&numero1);
     printf ("Segundo Numero: ");
-    scanf ("%d",&numero2);
+    scanf ("%f",&numero2);
 
     if (numero2> 0){
         division = (numero1 / numero2);
-        printf ("La division es %d\n",division);
+        printf ("La division es %.2f\n",division);
         Sleep (3000);
         system ("cls");
     } else {
